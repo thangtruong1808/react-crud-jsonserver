@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "THANG TRUONG",
+      "email": "THANGTRUONG1808@GMAIL.COM",
+      "phone": "0123456789",
+      "id": 1
+    },
+    {
+      "name": "Thomas Truong",
+      "email": "thomas.truong@gmail.com",
+      "phone": "123456789",
+      "id": 2
+    }
+  ]
+}
