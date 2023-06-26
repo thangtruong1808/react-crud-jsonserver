@@ -8,6 +8,11 @@ function Home() {
 	function loadUsers() {
 		const devENV = process.env.NODE_ENV !== "production";
 		const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
+		if (devENV) {
+			console.log(REACT_APP_DEV_URL);
+		} else {
+			console.log(REACT_APP_PROD_URL);
+		}
 		axios
 			.get(`${devENV ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`)
 			.then((res) => {

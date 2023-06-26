@@ -7,10 +7,16 @@
       "id": 1
     },
     {
-      "name": "Thomas Truong",
-      "email": "thomas.truong@gmail.com",
-      "phone": "123456789",
+      "name": "Thomas Truong updated",
+      "email": "thomas.truong.updated@gmail.com",
+      "phone": "123456789000",
       "id": 2
+    },
+    {
+      "name": "Test",
+      "email": "test@gmail.com",
+      "phone": "12345",
+      "id": 3
     }
   ]
 }
