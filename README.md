@@ -11,4 +11,4 @@ We've learned so far about how to send data to server and get the response back 
 We've seen how we can update our React state with the data received from the server and render our UI with that updated data.
 
 npm run json-server
-// "json-server": "json-server --watch db.json --port 4000",
+// "json-server": "json-server --watch db.json --port 3001",
